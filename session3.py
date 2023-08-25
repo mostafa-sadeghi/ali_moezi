@@ -8,7 +8,7 @@
 
 from turtle import Screen, Turtle, done
 favorite_sports = {
-    'sara': 'football',
+    'sara': ['football', 'baseball'],
     'artin': 'baseball',
     'armin': 'tennis'
 }
@@ -33,18 +33,48 @@ favorite_sports = {
 برنامه قابلیت تغییر اطلاعات دانش آموزان را دارد
 به این صورت که امکان حذف و نیز ویرایش سن و معدل دانش آموزان وجود دارد
 """
+# all_students = []
+# for i in range(3):
+#     name = input("enter a name: ")
+#     # family = input("enter a family: ")
+#     # age = input("enter a age: ")
+#     average = input("enter a average: ")
+#     student = {}
+#     student['name'] = name
+#     # student['family'] = family
+#     # student['age'] = age
+#     student['average'] = average
+#     all_students.append(student)
+
+# print(all_students)
+# del all_students[-1]
+
+# del all_students[-1]
+# print(all_students)
 
 
-main_surface = Screen()
-main_surface.bgcolor("cyan")
-main_surface.title("Hello")
-main_surface.setup(600, 600)
+# numbers = [1,2,3,4,5,6]
+
+# all_students[0]['average'] = 100
+# print(all_students)
+
+
+# main_surface = Screen()
+# main_surface.bgcolor("cyan")
+# main_surface.title("Hello")
+# main_surface.setup(600, 600)
 
 my_turtle = Turtle()
 my_turtle.forward(100)
-my_turtle.left(120)
+my_turtle.left(90)
+my_turtle.forward(100)
+my_turtle.left(90)
+my_turtle.forward(100)
+my_turtle.left(90)
+my_turtle.forward(100)
+my_turtle.left(90)
 
 # TODO  کشیدن مربع، مثلث و ....
 
 
-done()
+# done()
